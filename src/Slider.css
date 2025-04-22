@@ -1,0 +1,22 @@
+
+.slider{
+    height: 40px;
+    border: 2px solid #a93226;
+    border-radius: 20px;
+}
+
+.thumb{
+    background-color: #a93226;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.slider.green{
+    border: 2px solid #1e8449;
+}
+
+.slider.green .thumb{
+    background-color:#1e8449 ;
+}
