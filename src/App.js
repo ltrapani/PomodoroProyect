@@ -9,8 +9,8 @@ import ThemeContext from './ThemeContext';
 
 const GlobalStyles = createGlobalStyle`
   body{
-    background-color: ${props => props.darkMode ? '#1c2833':'#eef'};
-    color: ${props => props.darkMode ? '#eee': '#222'};
+    background-color: ${props => props.darkMode ? '#1c2833':'#5b2c6f'};
+    color: ${props => props.darkMode ? 'white': 'black'};
   }
 `;
 
